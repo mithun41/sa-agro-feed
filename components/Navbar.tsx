@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-green-700">
-          SA Agro Feed
+          SA FEEDS
         </Link>
 
         {/* Menu */}
@@ -18,11 +18,7 @@ export default function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link href="/about" className="hover:text-green-700">
-              About
-            </Link>
-          </li>
+
           <li>
             <Link href="/products" className="hover:text-green-700">
               Products
@@ -34,8 +30,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href="/contact" className="hover:text-green-700">
-              Contact
+            <Link href="/about" className="hover:text-green-700">
+              About
             </Link>
           </li>
         </ul>
