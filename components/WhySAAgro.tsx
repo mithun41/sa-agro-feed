@@ -25,7 +25,7 @@ export default function WhySAAgro() {
           <ul className="mt-6 space-y-4 text-gray-700">
             {points.map((point, i) => (
               <li key={i} className="flex items-start gap-3">
-                <span className="text-green-700 font-bold">✓</span>
+                <span className="text-red-700 font-bold">✓</span>
                 {point}
               </li>
             ))}

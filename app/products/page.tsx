@@ -29,7 +29,7 @@ const categories = [
 
 export default function ProductsPage() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 mt-16 bg-white ">
       <div className="max-w-7xl mx-auto px-6">
         {/* Page title */}
         <motion.div
@@ -65,7 +65,7 @@ export default function ProductsPage() {
               </div>
 
               <div className="p-6 flex flex-col">
-                <h3 className="text-xl font-semibold text-green-700">
+                <h3 className="text-xl font-semibold text-red-700">
                   {item.title}
                 </h3>
 
@@ -73,7 +73,7 @@ export default function ProductsPage() {
 
                 <Link
                   href={`/products/${item.slug}`}
-                  className="inline-flex items-center justify-center mt-6 px-6 py-3 bg-green-700 text-white font-medium rounded-lg hover:bg-green-800 transition-colors"
+                  className="inline-flex items-center justify-center mt-6 px-6 py-3 bg-black text-white border-2 border-red-700 font-medium rounded-lg hover:bg-gray-900 transition-colors"
                 >
                   View Details
                   <svg

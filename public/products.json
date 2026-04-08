@@ -1,0 +1,731 @@
+[
+  {
+    "sl_no": 1,
+    "item_code": "FG-341",
+    "name": "Pangas Starter Floating High Pro Pellet (PSFG)",
+    "category": "Pangas",
+    "date": "24-Aug-24",
+    "mrp": 1570.0,
+    "tp": 1450.0,
+    "image": "/images/fish/441.jpg.jpeg"
+  },
+  {
+    "sl_no": 2,
+    "item_code": "FG-342",
+    "name": "Pangas Grower Floating High Pro Pellet (PGFH)",
+    "category": "Pangas",
+    "date": "24-Aug-24",
+    "mrp": 1530.0,
+    "tp": 1410.0,
+    "image": "/images/fish/442.jpg.jpeg"
+  },
+  {
+    "sl_no": 3,
+    "item_code": "FG-343",
+    "name": "Pangas Finisher Floating High Pro Pellet (PFFH)",
+    "category": "Pangas",
+    "date": "24-Aug-24",
+    "mrp": 1490.0,
+    "tp": 1370.0,
+    "image": "/images/fish/443.jpg.jpeg"
+  },
+  {
+    "sl_no": 4,
+    "item_code": "FG-441",
+    "name": "Pangas Starter Floating Max Pro Pellet (PSFM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1370.0,
+    "tp": 1250.0,
+    "image": "/images/fish/441.jpg.jpeg"
+  },
+  {
+    "sl_no": 5,
+    "item_code": "FG-442",
+    "name": "Pangas Grower Floating Max Pro Pellet (PGFM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1330.0,
+    "tp": 1210.0,
+    "image": "/images/fish/442.jpg.jpeg"
+  },
+  {
+    "sl_no": 6,
+    "item_code": "FG-443",
+    "name": "Pangas Finisher Floating Max Pro Pellet (PFFM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1290.0,
+    "tp": 1170.0,
+    "image": "/images/fish/443.jpg.jpeg"
+  },
+  {
+    "sl_no": 7,
+    "item_code": "FG-541",
+    "name": "Pangas Starter Sinking High Pro Pellet (PSSH)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1556.25,
+    "tp": 1437.5,
+    "image": "/images/fish/541.jpg.jpeg"
+  },
+  {
+    "sl_no": 8,
+    "item_code": "FG-542",
+    "name": "Pangas Grower Sinking High Pro Pellet (PGSH)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1543.75,
+    "tp": 1425.0,
+    "image": "/images/fish/542.jpg.jpeg"
+  },
+  {
+    "sl_no": 9,
+    "item_code": "FG-543",
+    "name": "Pangas Finisher Sinking High Pro Pellet (PFSH)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1481.25,
+    "tp": 1362.5,
+    "image": "/images/fish/543.jpg.jpeg"
+  },
+  {
+    "sl_no": 10,
+    "item_code": "FG-641",
+    "name": "Pangas Starter Sinking Max Pro Pellet (PSSM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1431.25,
+    "tp": 1312.5,
+    "image": "/images/fish/641.jpg.jpeg"
+  },
+  {
+    "sl_no": 11,
+    "item_code": "FG-642",
+    "name": "Pangas Grower Sinking Max Pro Pellet (PGSM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1418.75,
+    "tp": 1300.0,
+    "image": "/images/fish/642.jpg.jpeg"
+  },
+  {
+    "sl_no": 12,
+    "item_code": "FG-643",
+    "name": "Pangas Finisher Sinking Max Pro Pellet (PFSM)",
+    "category": "Pangas",
+    "date": "25-Aug-24",
+    "mrp": 1356.25,
+    "tp": 1237.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 13,
+    "item_code": "FG-101",
+    "name": "Broiler Starter High Pro Crumble (BSH)",
+    "category": "Broiler",
+    "date": "21-Aug-24",
+    "mrp": 3610.0,
+    "tp": 3350.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 14,
+    "item_code": "FG-102",
+    "name": "Broiler Grower High Pro Pellet (BGH)",
+    "category": "Broiler",
+    "date": "21-Aug-24",
+    "mrp": 3610.0,
+    "tp": 3350.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 15,
+    "item_code": "FG-103",
+    "name": "Broiler Finisher High Pro Pellet (BFH)",
+    "category": "Broiler",
+    "date": "24-Aug-24",
+    "mrp": 3560.0,
+    "tp": 3300.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 16,
+    "item_code": "FG-104",
+    "name": "Broiler House Feed Pellet (BHF)",
+    "category": "Broiler",
+    "date": "24-Aug-24",
+    "mrp": 1112.5,
+    "tp": 1012.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 17,
+    "item_code": "FG-105",
+    "name": "Broiler House Feed Crumble (BHFC)",
+    "category": "Broiler",
+    "date": "2-Feb-25",
+    "mrp": 1137.5,
+    "tp": 1037.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 18,
+    "item_code": "FG-138",
+    "name": "Quail Breeder Crumble (QBC)",
+    "category": "Broiler",
+    "date": "3-Feb-25",
+    "mrp": 2975.0,
+    "tp": 2775.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 19,
+    "item_code": "FG-351",
+    "name": "Carp Starter Floating High Pro Pellet (CSFH)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1470.0,
+    "tp": 1350.0,
+    "image": "/images/fish/carp-starter.jpeg"
+  },
+  {
+    "sl_no": 20,
+    "item_code": "FG-352",
+    "name": "Carp Grower Floating High Pro Pellet (CGFH)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1400.0,
+    "tp": 1280.0,
+    "image": "/images/fish/carp-grower.jpeg"
+  },
+  {
+    "sl_no": 21,
+    "item_code": "FG-353",
+    "name": "Carp Finisher Floating High Pro Pellet (CFFH)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1340.0,
+    "tp": 1220.0,
+    "image": "/images/fish/carp-finisher.jpeg"
+  },
+  {
+    "sl_no": 22,
+    "item_code": "FG-401",
+    "name": "Carp Starter Floating Max Pro Pellet (CSFM)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1200.0,
+    "tp": 1080.0,
+    "image": "/images/fish/carp-starter.jpeg"
+  },
+  {
+    "sl_no": 23,
+    "item_code": "FG-402",
+    "name": "Carp Grower Floating Max Pro Pellet (CGFM)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1170.0,
+    "tp": 1050.0,
+    "image": "/images/fish/carp-grower.jpeg"
+  },
+  {
+    "sl_no": 24,
+    "item_code": "FG-403",
+    "name": "Carp Finisher Floating Max Pro Pellet (CFFM)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1130.0,
+    "tp": 1010.0,
+    "image": "/images/fish/403.jpg.jpeg"
+  },
+  {
+    "sl_no": 25,
+    "item_code": "FG-501",
+    "name": "Carp Starter Sinking High Pro Pellet (CSSH)",
+    "category": "Carp",
+    "date": "24-Aug-24",
+    "mrp": 1487.5,
+    "tp": 1368.75,
+    "image": "/images/fish/carp-starter.jpeg"
+  },
+  {
+    "sl_no": 26,
+    "item_code": "FG-502",
+    "name": "Carp Grower Sinking High Pro Pellet (CGSH)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1456.25,
+    "tp": 1337.5,
+    "image": "/images/fish/carp-grower.jpeg"
+  },
+  {
+    "sl_no": 27,
+    "item_code": "FG-503",
+    "name": "Carp Finisher Sinking High Pro Pellet (CFSH)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1412.5,
+    "tp": 1293.75,
+    "image": "/images/fish/carp-finisher.jpeg"
+  },
+  {
+    "sl_no": 28,
+    "item_code": "FG-601",
+    "name": "Carp Starter Sinking Max Pro Pellet (CSSM)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1362.5,
+    "tp": 1243.75,
+    "image": "/images/fish/carp-starter.jpeg"
+  },
+  {
+    "sl_no": 29,
+    "item_code": "FG-602",
+    "name": "Carp Grower Sinking Max Pro Pellet (CGSM)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1331.25,
+    "tp": 1212.5,
+    "image": "/images/fish/carp-grower.jpeg"
+  },
+  {
+    "sl_no": 30,
+    "item_code": "FG-603",
+    "name": "Carp Finisher Sinking Max Pro Pellet (CFSM)",
+    "category": "Carp",
+    "date": "25-Aug-24",
+    "mrp": 1287.5,
+    "tp": 1168.75,
+    "image": "/images/fish/carp-finisher.jpeg"
+  },
+  {
+    "sl_no": 31,
+    "item_code": "FG-701",
+    "name": "Shrimp Starter Sinking Max Pro Pellet (SSSM)",
+    "category": "Shrimp",
+    "date": "24-Mar-25",
+    "mrp": 1700.0,
+    "tp": 1581.25,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 32,
+    "item_code": "FG-702",
+    "name": "Shrimp Grower Sinking Max Pro Pellet (SSGM)",
+    "category": "Shrimp",
+    "date": "24-Mar-25",
+    "mrp": 1650.0,
+    "tp": 1531.25,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 33,
+    "item_code": "FG-201",
+    "name": "Cattle Dairy High Pro Pellet (CDH)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1427.5,
+    "tp": 1327.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 34,
+    "item_code": "FG-202",
+    "name": "Cattle Beef High Pro Pellet (CBH)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1427.5,
+    "tp": 1327.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 35,
+    "item_code": "FG-203",
+    "name": "Cattle Dairy Max Pro Pellet (CDM)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1240.0,
+    "tp": 1140.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 36,
+    "item_code": "FG-204",
+    "name": "Cattle Beef Max Pro Pellet (CBM)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1240.0,
+    "tp": 1140.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 37,
+    "item_code": "FG-205",
+    "name": "Cattle Dairy Eco Pellet (CDE)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1037.5,
+    "tp": 937.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 38,
+    "item_code": "FG-206",
+    "name": "Cattle Beef Eco Pellet (CBE)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1037.5,
+    "tp": 937.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 39,
+    "item_code": "FG-207",
+    "name": "Vushi Mix High Pro Mash (SAVMH)",
+    "category": "Cattle",
+    "date": "25-Aug-24",
+    "mrp": 1402.5,
+    "tp": 1302.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 40,
+    "item_code": "FG-208",
+    "name": "Vushi Mix Plus Mash (SAVM)",
+    "category": "Cattle",
+    "date": "24-Aug-24",
+    "mrp": 1212.5,
+    "tp": 1112.5,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 41,
+    "item_code": "FG-300",
+    "name": "Nursery Hatchery Powder Feed High Pro 40% (CNPH)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 1065.0,
+    "tp": 975.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 42,
+    "item_code": "FG-301",
+    "name": "Pre Nursery Floating High Pro Pellet 0.6 (CPNH)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 1440.0,
+    "tp": 1290.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 43,
+    "item_code": "FG-302",
+    "name": "Nursery Floating High Pro Pellet 0.8 (CNFH)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 1360.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 44,
+    "item_code": "FG-303",
+    "name": "Nursery 1 Floating High Pro Pellet (CNFH 1)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 2410.0,
+    "tp": 2150.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 45,
+    "item_code": "FG-304",
+    "name": "Nursery 2 Floating High Pro Pellet (CNFH 2)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 2230.0,
+    "tp": 1990.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 46,
+    "item_code": "FG-305",
+    "name": "Pre Starter 1.5 Floating High Pro Pellet (CPSH)",
+    "category": "Common Nursery",
+    "date": "24-Aug-24",
+    "mrp": 2010.0,
+    "tp": 1810.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 47,
+    "item_code": "FG-400",
+    "name": "Common N. Powder Feed Max Pro Pellet 35% (CNP)",
+    "category": "Common Nursery",
+    "date": "25-Aug-24",
+    "mrp": 845.0,
+    "tp": 765.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 48,
+    "item_code": "FG-321",
+    "name": "Pabda/Gulsha Starter Floating High Pro Pellet (GPS)",
+    "category": "Gulsa Pabda",
+    "date": "24-Aug-24",
+    "mrp": 2030.0,
+    "tp": 1870.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 49,
+    "item_code": "FG-322",
+    "name": "Pabda/Gulsha Grower Floating High Pro Pellet (GPG)",
+    "category": "Gulsa Pabda",
+    "date": "24-Aug-24",
+    "mrp": 2000.0,
+    "tp": 1840.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 50,
+    "item_code": "FG-311",
+    "name": "Koi/Singh/Magur Starter Floating High Pro Pellet (KSMS)",
+    "category": "Koi Shing Magur",
+    "date": "24-Aug-24",
+    "mrp": 1910.0,
+    "tp": 1750.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 51,
+    "item_code": "FG-312",
+    "name": "Koi/Singh/Magur Grower Floating High Pro Pellet (KSMG)",
+    "category": "Koi Shing Magur",
+    "date": "24-Aug-24",
+    "mrp": 1810.0,
+    "tp": 1650.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 52,
+    "item_code": "FG-131",
+    "name": "Layer Starter Crumble Hipro (LSCH)",
+    "category": "Layer",
+    "date": "25-Aug-24",
+    "mrp": 3015.0,
+    "tp": 2815.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 53,
+    "item_code": "FG-132",
+    "name": "Layer Grower Crumble Hipro (LGCH)",
+    "category": "Layer",
+    "date": "25-Aug-24",
+    "mrp": 2940.0,
+    "tp": 2740.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 54,
+    "item_code": "FG-134",
+    "name": "Layer Layer 1 Mash Hipro (LLH1)",
+    "category": "Layer",
+    "date": "25-Aug-24",
+    "mrp": 2850.0,
+    "tp": 2650.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 55,
+    "item_code": "FG-135",
+    "name": "Layer Layer 2 Mash Hipro (LLH2)",
+    "category": "Layer",
+    "date": "25-Aug-24",
+    "mrp": 2845.0,
+    "tp": 2645.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 56,
+    "item_code": "FG-137",
+    "name": "Layer Layer 1 Pellet Hipro (LLH1)",
+    "category": "Layer",
+    "date": "9-Oct-24",
+    "mrp": 2900.0,
+    "tp": 2700.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 57,
+    "item_code": "FG-139",
+    "name": "Layer Breeder Mash Highpro (LBH)",
+    "category": "Layer",
+    "date": "24-Mar-25",
+    "mrp": 2900.0,
+    "tp": 2700.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 58,
+    "item_code": "FG-111",
+    "name": "Sonali Starter High Pro Crumble (SSH)",
+    "category": "Sonali",
+    "date": "24-Aug-24",
+    "mrp": 3250.0,
+    "tp": 3010.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 59,
+    "item_code": "FG-112",
+    "name": "Sonali Grower High Pro Pellet (SGH)",
+    "category": "Sonali",
+    "date": "24-Aug-24",
+    "mrp": 3250.0,
+    "tp": 3010.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 60,
+    "item_code": "FG-121",
+    "name": "Sonali Starter Regular (SSR)",
+    "category": "Sonali",
+    "date": "24-Aug-24",
+    "mrp": 2890.0,
+    "tp": 2600.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 61,
+    "item_code": "FG-122",
+    "name": "Sonali Grower Regular (SGR)",
+    "category": "Sonali",
+    "date": "24-Aug-24",
+    "mrp": 2890.0,
+    "tp": 2600.0,
+    "image": "/images/fish/643.jpg.jpeg"
+  },
+  {
+    "sl_no": 62,
+    "item_code": "FG-331",
+    "name": "Tilapia Starter Floating High Pro Pellet (TSFH)",
+    "category": "Tilapia",
+    "date": "24-Aug-24",
+    "mrp": 1600.0,
+    "tp": 1480.0,
+    "image": "/images/fish/431.jpg.jpeg"
+  },
+  {
+    "sl_no": 63,
+    "item_code": "FG-332",
+    "name": "Tilapia Grower Floating High Pro Pellet (TGFH)",
+    "category": "Tilapia",
+    "date": "24-Aug-24",
+    "mrp": 1540.0,
+    "tp": 1420.0,
+    "image": "/images/fish/432.jpg.jpeg"
+  },
+  {
+    "sl_no": 64,
+    "item_code": "FG-333",
+    "name": "Tilapia Finisher Floating High Pro Pellet (TFFH)",
+    "category": "Tilapia",
+    "date": "24-Aug-24",
+    "mrp": 1495.0,
+    "tp": 1375.0,
+    "image": "/images/fish/433.jpg.jpeg"
+  },
+  {
+    "sl_no": 65,
+    "item_code": "FG-431",
+    "name": "Tilapia Starter Floating Max Pro Pellet (TSFM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1400.0,
+    "tp": 1280.0,
+    "image": "/images/fish/431.jpg.jpeg"
+  },
+  {
+    "sl_no": 66,
+    "item_code": "FG-432",
+    "name": "Tilapia Grower Floating Max Pro Pellet (TGFM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1340.0,
+    "tp": 1220.0,
+    "image": "/images/fish/432.jpg.jpeg"
+  },
+  {
+    "sl_no": 67,
+    "item_code": "FG-433",
+    "name": "Tilapia Finisher Floating Max Pro Pellet (TFFM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1295.0,
+    "tp": 1175.0,
+    "image": "/images/fish/433.jpg.jpeg"
+  },
+  {
+    "sl_no": 68,
+    "item_code": "FG-531",
+    "name": "Tilapia Starter Sinking High Pro Pellet (TSSH)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1581.25,
+    "tp": 1462.5,
+    "image": "/images/fish/531.jpg.jpeg"
+  },
+  {
+    "sl_no": 69,
+    "item_code": "FG-532",
+    "name": "Tilapia Grower Sinking High Pro Pellet (TGSH)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1568.75,
+    "tp": 1450.0,
+    "image": "/images/fish/532.jpg.jpeg"
+  },
+  {
+    "sl_no": 70,
+    "item_code": "FG-533",
+    "name": "Tilapia Finisher Sinking High Pro Pellet (TFSH)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1518.75,
+    "tp": 1400.0,
+    "image": "/images/fish/533.jpg.jpeg"
+  },
+  {
+    "sl_no": 71,
+    "item_code": "FG-631",
+    "name": "Tilapia Starter Sinking Max Pro Pellet (TSSM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1456.25,
+    "tp": 1337.5,
+    "image": "/images/fish/631.jpg.jpeg"
+  },
+  {
+    "sl_no": 72,
+    "item_code": "FG-632",
+    "name": "Tilapia Grower Sinking Max Pro Pellet (TGSM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1443.75,
+    "tp": 1325.0,
+    "image": "/images/fish/632.jpg.jpeg"
+  },
+  {
+    "sl_no": 73,
+    "item_code": "FG-633",
+    "name": "Tilapia Finisher Sinking Max Pro Pellet (TFSM)",
+    "category": "Tilapia",
+    "date": "25-Aug-24",
+    "mrp": 1393.75,
+    "tp": 1275.0,
+    "image": "/images/fish/633.jpg.jpeg"
+  }
+]
