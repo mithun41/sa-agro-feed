@@ -3,27 +3,17 @@
 import { motion } from "framer-motion";
 import productData from "../../../public/products.json";
 
-export default function FishDetailsPage() {
-  const phoneNumber = "+8801713558900";
+export default function CommonNurseryProductsPage() {
+  const phoneNumber = "01798916082";
 
-  const fishCategories = [
-    "Pangas",
-    "Carp",
-    "Shrimp",
-    "Common Nursery",
-    "Gulsa Pabda",
-    "Koi Shing Magur",
-    "Tilapia",
-  ];
-
-  const fishProducts = productData.filter((product) =>
-    fishCategories.includes(product.category),
+  const nurseryProducts = productData.filter(
+    (product) => product.category === "Common Nursery"
   );
 
   return (
     <div className="min-h-screen bg-gray-50 mt-24 pb-20">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-cyan-700 to-sky-600 text-white py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-emerald-900 via-green-700 to-lime-600 text-white py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row justify-between items-center gap-10">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -31,12 +21,11 @@ export default function FishDetailsPage() {
             className="text-center md:text-left"
           >
             <h1 className="text-5xl md:text-6xl font-black mb-6">
-              Premium Fish Feed
+              Common Nursery Feed
             </h1>
-            <p className="text-xl text-blue-50 max-w-2xl leading-relaxed">
-              Quality floating and sinking fish feed for Pangas, Carp, Tilapia,
-              Shrimp, Nursery, and specialty fish with balanced nutrition for
-              fast healthy growth.
+            <p className="text-xl text-green-50 max-w-2xl leading-relaxed">
+              Premium hatchery and nursery feed for healthy fry growth, stronger
+              immunity, and faster early-stage development.
             </p>
           </motion.div>
 
@@ -62,13 +51,13 @@ export default function FishDetailsPage() {
       {/* Products */}
       <section className="max-w-7xl mx-auto px-6 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {fishProducts.map((product, index) => (
+          {nurseryProducts.map((product, index) => (
             <motion.div
               key={product.item_code}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.05 }}
+              transition={{ duration: 0.4, delay: index * 0.06 }}
               className="bg-white rounded-3xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 group"
             >
               <div className="h-64 bg-gray-100 overflow-hidden">
@@ -80,14 +69,9 @@ export default function FishDetailsPage() {
               </div>
 
               <div className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <p className="text-sm font-semibold text-sky-600">
-                    {product.item_code}
-                  </p>
-                  <span className="text-xs font-semibold bg-sky-100 text-sky-700 px-3 py-1 rounded-full">
-                    {product.category}
-                  </span>
-                </div>
+                <p className="text-sm font-semibold text-green-600 mb-2">
+                  {product.item_code}
+                </p>
 
                 <h3 className="text-xl font-bold text-gray-900 leading-snug mb-4 min-h-[64px]">
                   {product.name}
@@ -100,15 +84,13 @@ export default function FishDetailsPage() {
                   </div>
                   <div className="flex justify-between text-gray-600">
                     <span>Dealer Price</span>
-                    <span className="font-bold text-green-600">
-                      ৳{product.tp}
-                    </span>
+                    <span className="font-bold text-green-600">৳{product.tp}</span>
                   </div>
                 </div>
 
                 <a
                   href={`tel:${phoneNumber}`}
-                  className="w-full inline-flex justify-center items-center gap-2 bg-sky-700 text-white px-6 py-3 rounded-2xl font-bold hover:bg-sky-600 transition-all"
+                  className="w-full inline-flex justify-center items-center bg-green-700 text-white px-6 py-3 rounded-2xl font-bold hover:bg-green-600 transition-all"
                 >
                   Order Now
                 </a>
@@ -120,14 +102,14 @@ export default function FishDetailsPage() {
 
       {/* CTA */}
       <section className="mt-20 px-6">
-        <div className="max-w-5xl mx-auto bg-slate-950 rounded-[2rem] p-12 text-center relative overflow-hidden shadow-2xl border border-sky-600/30">
+        <div className="max-w-5xl mx-auto bg-zinc-950 rounded-[2rem] p-12 text-center relative overflow-hidden shadow-2xl border border-green-600/30">
           <div className="relative z-10">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-              Fish feed সম্পর্কে জানতে আমাদের কল করুন
+              Common Nursery feed সম্পর্কে জানতে আমাদের কল করুন
             </h2>
             <a
               href={`tel:${phoneNumber}`}
-              className="inline-flex items-center gap-4 bg-sky-700 text-white px-12 py-5 rounded-2xl text-2xl font-black hover:bg-sky-600 transition-all shadow-xl hover:scale-105"
+              className="inline-flex items-center bg-green-700 text-white px-12 py-5 rounded-2xl text-2xl font-black hover:bg-green-600 transition-all shadow-xl hover:scale-105"
             >
               কল করুন এখন
             </a>

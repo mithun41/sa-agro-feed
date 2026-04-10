@@ -127,7 +127,7 @@
     "date": "21-Aug-24",
     "mrp": 3610.0,
     "tp": 3350.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/101.jpg.jpeg"
   },
   {
     "sl_no": 14,
@@ -137,7 +137,7 @@
     "date": "21-Aug-24",
     "mrp": 3610.0,
     "tp": 3350.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/102.jpg.jpeg"
   },
   {
     "sl_no": 15,
@@ -147,7 +147,7 @@
     "date": "24-Aug-24",
     "mrp": 3560.0,
     "tp": 3300.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/103.jpg.jpeg"
   },
   {
     "sl_no": 16,
@@ -157,7 +157,7 @@
     "date": "24-Aug-24",
     "mrp": 1112.5,
     "tp": 1012.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/104.jpg.jpeg"
   },
   {
     "sl_no": 17,
@@ -167,7 +167,7 @@
     "date": "2-Feb-25",
     "mrp": 1137.5,
     "tp": 1037.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/105.jpg.jpeg"
   },
   {
     "sl_no": 18,
@@ -177,7 +177,7 @@
     "date": "3-Feb-25",
     "mrp": 2975.0,
     "tp": 2775.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/138.jpg.jpeg"
   },
   {
     "sl_no": 19,
@@ -257,7 +257,7 @@
     "date": "25-Aug-24",
     "mrp": 1456.25,
     "tp": 1337.5,
-    "image": "/images/fish/carp-grower.jpeg"
+    "image": "/images/fish/502.jpg.jpeg"
   },
   {
     "sl_no": 27,
@@ -267,7 +267,7 @@
     "date": "25-Aug-24",
     "mrp": 1412.5,
     "tp": 1293.75,
-    "image": "/images/fish/carp-finisher.jpeg"
+    "image": "/images/fish/503.jpg.jpeg"
   },
   {
     "sl_no": 28,
@@ -277,7 +277,7 @@
     "date": "25-Aug-24",
     "mrp": 1362.5,
     "tp": 1243.75,
-    "image": "/images/fish/carp-starter.jpeg"
+    "image": "/images/fish/601.jpg.jpeg"
   },
   {
     "sl_no": 29,
@@ -297,7 +297,7 @@
     "date": "25-Aug-24",
     "mrp": 1287.5,
     "tp": 1168.75,
-    "image": "/images/fish/carp-finisher.jpeg"
+    "image": "/images/fish/603.jpg.jpeg"
   },
   {
     "sl_no": 31,
@@ -327,7 +327,7 @@
     "date": "25-Aug-24",
     "mrp": 1427.5,
     "tp": 1327.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/201.jpg.jpeg"
   },
   {
     "sl_no": 34,
@@ -337,7 +337,7 @@
     "date": "25-Aug-24",
     "mrp": 1427.5,
     "tp": 1327.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/202.jpg.jpeg"
   },
   {
     "sl_no": 35,
@@ -347,7 +347,7 @@
     "date": "25-Aug-24",
     "mrp": 1240.0,
     "tp": 1140.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/203.jpg.jpeg"
   },
   {
     "sl_no": 36,
@@ -357,7 +357,7 @@
     "date": "25-Aug-24",
     "mrp": 1240.0,
     "tp": 1140.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/204.jpg.jpeg"
   },
   {
     "sl_no": 37,
@@ -367,7 +367,7 @@
     "date": "25-Aug-24",
     "mrp": 1037.5,
     "tp": 937.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/205.jpg.jpeg"
   },
   {
     "sl_no": 38,
@@ -377,7 +377,7 @@
     "date": "25-Aug-24",
     "mrp": 1037.5,
     "tp": 937.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/206.jpg.jpeg"
   },
   {
     "sl_no": 39,
@@ -387,7 +387,7 @@
     "date": "25-Aug-24",
     "mrp": 1402.5,
     "tp": 1302.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/207.jpg.jpeg"
   },
   {
     "sl_no": 40,
@@ -397,7 +397,7 @@
     "date": "24-Aug-24",
     "mrp": 1212.5,
     "tp": 1112.5,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/cattle/208.jpg.jpeg"
   },
   {
     "sl_no": 41,
@@ -407,7 +407,7 @@
     "date": "24-Aug-24",
     "mrp": 1065.0,
     "tp": 975.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/300.jpg.jpeg"
   },
   {
     "sl_no": 42,
@@ -417,7 +417,7 @@
     "date": "24-Aug-24",
     "mrp": 1440.0,
     "tp": 1290.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/301.jpg.jpeg"
   },
   {
     "sl_no": 43,
@@ -426,7 +426,7 @@
     "category": "Common Nursery",
     "date": "24-Aug-24",
     "mrp": 1360.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/302.jpg.jpeg"
   },
   {
     "sl_no": 44,
@@ -436,7 +436,7 @@
     "date": "24-Aug-24",
     "mrp": 2410.0,
     "tp": 2150.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/303.jpg.jpeg"
   },
   {
     "sl_no": 45,
@@ -446,7 +446,7 @@
     "date": "24-Aug-24",
     "mrp": 2230.0,
     "tp": 1990.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/304.jpg.jpeg"
   },
   {
     "sl_no": 46,
@@ -456,7 +456,7 @@
     "date": "24-Aug-24",
     "mrp": 2010.0,
     "tp": 1810.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/305.jpg.jpeg"
   },
   {
     "sl_no": 47,
@@ -466,7 +466,7 @@
     "date": "25-Aug-24",
     "mrp": 845.0,
     "tp": 765.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/common/400.jpg.jpeg"
   },
   {
     "sl_no": 48,
@@ -476,7 +476,7 @@
     "date": "24-Aug-24",
     "mrp": 2030.0,
     "tp": 1870.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/fish/321.jpg.jpeg"
   },
   {
     "sl_no": 49,
@@ -486,7 +486,7 @@
     "date": "24-Aug-24",
     "mrp": 2000.0,
     "tp": 1840.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/fish/322.jpg.jpeg"
   },
   {
     "sl_no": 50,
@@ -496,7 +496,7 @@
     "date": "24-Aug-24",
     "mrp": 1910.0,
     "tp": 1750.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/fish/311.jpg.jpeg"
   },
   {
     "sl_no": 51,
@@ -506,7 +506,7 @@
     "date": "24-Aug-24",
     "mrp": 1810.0,
     "tp": 1650.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/fish/312.jpg.jpeg"
   },
   {
     "sl_no": 52,
@@ -516,7 +516,7 @@
     "date": "25-Aug-24",
     "mrp": 3015.0,
     "tp": 2815.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/131.jpg.jpeg"
   },
   {
     "sl_no": 53,
@@ -526,7 +526,7 @@
     "date": "25-Aug-24",
     "mrp": 2940.0,
     "tp": 2740.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/132.jpg.jpeg"
   },
   {
     "sl_no": 54,
@@ -536,7 +536,7 @@
     "date": "25-Aug-24",
     "mrp": 2850.0,
     "tp": 2650.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/134.jpg.jpeg"
   },
   {
     "sl_no": 55,
@@ -546,7 +546,7 @@
     "date": "25-Aug-24",
     "mrp": 2845.0,
     "tp": 2645.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/135.jpg.jpeg"
   },
   {
     "sl_no": 56,
@@ -556,7 +556,7 @@
     "date": "9-Oct-24",
     "mrp": 2900.0,
     "tp": 2700.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/135.jpg.jpeg"
   },
   {
     "sl_no": 57,
@@ -566,7 +566,7 @@
     "date": "24-Mar-25",
     "mrp": 2900.0,
     "tp": 2700.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/139.jpg.jpeg"
   },
   {
     "sl_no": 58,
@@ -576,7 +576,7 @@
     "date": "24-Aug-24",
     "mrp": 3250.0,
     "tp": 3010.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/112.jpg.jpeg"
   },
   {
     "sl_no": 59,
@@ -586,7 +586,7 @@
     "date": "24-Aug-24",
     "mrp": 3250.0,
     "tp": 3010.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/112.jpg.jpeg"
   },
   {
     "sl_no": 60,
@@ -596,7 +596,7 @@
     "date": "24-Aug-24",
     "mrp": 2890.0,
     "tp": 2600.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/112.jpg.jpeg"
   },
   {
     "sl_no": 61,
@@ -606,7 +606,7 @@
     "date": "24-Aug-24",
     "mrp": 2890.0,
     "tp": 2600.0,
-    "image": "/images/fish/643.jpg.jpeg"
+    "image": "/images/poultry/122.jpg.jpeg"
   },
   {
     "sl_no": 62,
@@ -616,7 +616,7 @@
     "date": "24-Aug-24",
     "mrp": 1600.0,
     "tp": 1480.0,
-    "image": "/images/fish/431.jpg.jpeg"
+    "image": "/images/fish/331.jpg.jpeg"
   },
   {
     "sl_no": 63,
@@ -626,7 +626,7 @@
     "date": "24-Aug-24",
     "mrp": 1540.0,
     "tp": 1420.0,
-    "image": "/images/fish/432.jpg.jpeg"
+    "image": "/images/fish/332.jpg.jpeg"
   },
   {
     "sl_no": 64,
@@ -636,7 +636,7 @@
     "date": "24-Aug-24",
     "mrp": 1495.0,
     "tp": 1375.0,
-    "image": "/images/fish/433.jpg.jpeg"
+    "image": "/images/fish/333.jpg.jpeg"
   },
   {
     "sl_no": 65,

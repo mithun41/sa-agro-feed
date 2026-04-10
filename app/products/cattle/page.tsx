@@ -7,7 +7,7 @@ export default function CattleDetailsPage() {
   const phoneNumber = "+8801713558900";
 
   const cattleProducts = productData.filter(
-    (product) => product.category === "Cattle"
+    (product) => product.category === "Cattle",
   );
 
   return (
@@ -24,22 +24,27 @@ export default function CattleDetailsPage() {
               Premium Cattle Feed
             </h1>
             <p className="text-xl text-red-50 max-w-2xl leading-relaxed">
-              High quality dairy, beef, and eco cattle feed designed for
-              healthy growth, better milk production, and strong nutrition.
+              High quality dairy, beef, and eco cattle feed designed for healthy
+              growth, better milk production, and strong nutrition.
             </p>
           </motion.div>
 
           <motion.div
-            initial={{ scale: 0.9, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-          >
-            <a
-              href={`tel:${phoneNumber}`}
-              className="group bg-white text-red-700 px-10 py-5 rounded-2xl font-black text-2xl shadow-[0_20px_50px_rgba(0,0,0,0.2)] hover:shadow-red-500/20 transition-all flex items-center gap-4 border-b-4 border-red-200 active:border-b-0 active:translate-y-1"
-            >
-              <span className="animate-pulse">📞</span> {phoneNumber}
-            </a>
-          </motion.div>
+  initial={{ scale: 0.9, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1 }}
+  className="text-center"
+>
+  <p className="text-sm md:text-base font-semibold text-green-100 mb-3 uppercase tracking-[0.2em]">
+    Call Now
+  </p>
+
+  <a
+    href={`tel:${phoneNumber}`}
+    className="bg-white text-green-700 px-10 py-5 rounded-2xl font-black text-2xl shadow-[0_20px_50px_rgba(0,0,0,0.2)] transition-all border-b-4 border-green-200 active:border-b-0 active:translate-y-1 inline-block"
+  >
+    {phoneNumber}
+  </a>
+</motion.div>
         </div>
       </section>
 
@@ -79,7 +84,9 @@ export default function CattleDetailsPage() {
                   </div>
                   <div className="flex justify-between text-gray-600">
                     <span>Dealer Price</span>
-                    <span className="font-bold text-green-600">৳{product.tp}</span>
+                    <span className="font-bold text-green-600">
+                      ৳{product.tp}
+                    </span>
                   </div>
                 </div>
 
@@ -87,7 +94,7 @@ export default function CattleDetailsPage() {
                   href={`tel:${phoneNumber}`}
                   className="w-full inline-flex justify-center items-center gap-2 bg-red-700 text-white px-6 py-3 rounded-2xl font-bold hover:bg-red-600 transition-all"
                 >
-                  📞 Order Now
+                  Order Now
                 </a>
               </div>
             </motion.div>

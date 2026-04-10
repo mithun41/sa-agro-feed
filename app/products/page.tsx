@@ -25,6 +25,13 @@ const categories = [
     slug: "fish",
     image: "/images/products/fish.png",
   },
+  {
+    title: "Common Nursery",
+    description:
+      "Specialized high-protein starter feed for nursery and hatchery stage.",
+    slug: "common",
+    image: "/images/products/feed.jpg", // আপনার দেওয়া ইমেজের নাম অনুযায়ী
+  },
 ];
 
 export default function ProductsPage() {
@@ -46,7 +53,8 @@ export default function ProductsPage() {
         </motion.div>
 
         {/* Product cards */}
-        <div className="mt-14 grid gap-8 md:grid-cols-3">
+        {/* grid-cols-3 থেকে md:grid-cols-2 lg:grid-cols-4 এ পরিবর্তন করেছি যাতে ৪টি কার্ড সুন্দর দেখায় */}
+        <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {categories.map((item, i) => (
             <motion.div
               key={item.slug}
@@ -54,7 +62,7 @@ export default function ProductsPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.15 }}
               viewport={{ once: true }}
-              className="border rounded-xl overflow-hidden hover:shadow-xl transition bg-white"
+              className="border rounded-xl overflow-hidden hover:shadow-xl transition bg-white flex flex-col"
             >
               <div className="relative w-full h-52">
                 <img
@@ -64,12 +72,14 @@ export default function ProductsPage() {
                 />
               </div>
 
-              <div className="p-6 flex flex-col">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-semibold text-red-700">
                   {item.title}
                 </h3>
 
-                <p className="mt-3 text-gray-600 text-sm">{item.description}</p>
+                <p className="mt-3 text-gray-600 text-sm flex-grow">
+                  {item.description}
+                </p>
 
                 <Link
                   href={`/products/${item.slug}`}

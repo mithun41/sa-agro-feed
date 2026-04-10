@@ -8,6 +8,8 @@ import {
   useInView,
 } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
+import { MdVerified } from "react-icons/md";
+import { FaFlask, FaUsers, FaLeaf } from "react-icons/fa";
 
 /* ─── Data ─────────────────────────────────────────────── */
 
@@ -20,25 +22,25 @@ const stats = [
 
 const values = [
   {
-    icon: "🌾",
+    icon: <MdVerified className="text-4xl text-green-500 mb-6" />,
     title: "Quality First",
     body: "Every batch is lab-tested against strict nutritional benchmarks before it reaches your farm.",
     accent: "#d4a843",
   },
   {
-    icon: "🔬",
+    icon: <FaFlask className="text-4xl text-blue-500 mb-6" />,
     title: "Science-Backed",
     body: "Our formulations are developed by veterinary nutritionists using the latest livestock research.",
     accent: "#c0392b",
   },
   {
-    icon: "🤝",
+    icon: <FaUsers className="text-4xl text-purple-500 mb-6" />,
     title: "Farmer-Centric",
     body: "We work alongside farmers, listening to field realities and adapting our products accordingly.",
     accent: "#d4a843",
   },
   {
-    icon: "🌱",
+    icon: <FaLeaf className="text-4xl text-green-600 mb-6" />,
     title: "Sustainable",
     body: "Responsible sourcing and eco-conscious manufacturing guide every decision we make.",
     accent: "#c0392b",
@@ -635,6 +637,28 @@ export default function AboutPage() {
       </section>
 
       {/* ══════════════════════════════════════
+          VIDEO SECTION
+      ══════════════════════════════════════ */}
+      <section className="py-20 bg-[#0d0a07] relative overflow-hidden">
+        <div className="px-8 text-center">
+          <Reveal>
+            <h2 className="text-4xl font-black text-white tracking-tight mb-8">
+              Watch Our Story
+            </h2>
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+              <iframe
+                src="https://www.youtube.com/embed/KdXdThmEF_s?autoplay=1&loop=1&mute=1&playlist=KdXdThmEF_s"
+                title="SA Agro Feed Video"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════
           WHO WE ARE
       ══════════════════════════════════════ */}
       <section className="py-32 bg-[var(--dark-2)] relative overflow-hidden">
@@ -787,7 +811,7 @@ export default function AboutPage() {
                     }}
                   />
 
-                  <div className="text-4xl mb-6">{v.icon}</div>
+                  {v.icon}
                   <h3 className="text-white font-bold text-lg mb-3 tracking-tight">
                     {v.title}
                   </h3>
