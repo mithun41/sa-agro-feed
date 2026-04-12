@@ -9,7 +9,7 @@ const categories = [
     description:
       "Balanced nutrition for healthy broiler and layer poultry growth.",
     slug: "poultry",
-    image: "/images/products/paultry.jpg",
+    image: "/images/products/poultry4.jpeg",
   },
   {
     title: "Cattle Feed",
@@ -23,7 +23,7 @@ const categories = [
     description:
       "Nutritious and protein-rich feed for commercial fish farming.",
     slug: "fish",
-    image: "/images/products/fish.png",
+    image: "/images/products/fish2.jpeg",
   },
   {
     title: "Common Nursery",

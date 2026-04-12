@@ -7,7 +7,7 @@ export default function CommonNurseryProductsPage() {
   const phoneNumber = "01798916082";
 
   const nurseryProducts = productData.filter(
-    (product) => product.category === "Common Nursery"
+    (product) => product.category === "Common Nursery",
   );
 
   return (
@@ -30,21 +30,23 @@ export default function CommonNurseryProductsPage() {
           </motion.div>
 
           <motion.div
-  initial={{ scale: 0.9, opacity: 0 }}
-  animate={{ scale: 1, opacity: 1 }}
-  className="text-center"
->
-  <p className="text-sm md:text-base font-semibold text-green-100 mb-3 uppercase tracking-[0.2em]">
-    Call Now
-  </p>
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            className="text-center"
+          >
+            <p className="text-sm md:text-base font-semibold text-green-100 mb-3 uppercase tracking-[0.2em]">
+              Call Now
+            </p>
 
-  <a
-    href={`tel:${phoneNumber}`}
-    className="bg-white text-green-700 px-10 py-5 rounded-2xl font-black text-2xl shadow-[0_20px_50px_rgba(0,0,0,0.2)] transition-all border-b-4 border-green-200 active:border-b-0 active:translate-y-1 inline-block"
-  >
-    {phoneNumber}
-  </a>
-</motion.div>
+            <motion.a
+              href={`tel:${phoneNumber}`}
+              animate={{ y: [-8, 8, -8] }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+              className="bg-green-600 text-white px-10 py-5 rounded-2xl font-black text-2xl shadow-[0_20px_50px_rgba(0,0,0,0.2)] transition-all border-b-4 border-green-400 active:border-b-0 active:translate-y-1 inline-block hover:bg-green-700 hover:shadow-[0_25px_60px_rgba(0,0,0,0.3)]"
+            >
+              {phoneNumber}
+            </motion.a>
+          </motion.div>
         </div>
       </section>
 
@@ -84,7 +86,9 @@ export default function CommonNurseryProductsPage() {
                   </div>
                   <div className="flex justify-between text-gray-600">
                     <span>Dealer Price</span>
-                    <span className="font-bold text-green-600">৳{product.tp}</span>
+                    <span className="font-bold text-green-600">
+                      ৳{product.tp}
+                    </span>
                   </div>
                 </div>
 

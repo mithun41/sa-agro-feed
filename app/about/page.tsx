@@ -9,7 +9,8 @@ import {
 } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { MdVerified } from "react-icons/md";
-import { FaFlask, FaUsers, FaLeaf } from "react-icons/fa";
+import { FaFlask, FaUsers, FaLeaf,  FaIndustry, FaBoxOpen,
+  FaAward, } from "react-icons/fa";
 
 /* ─── Data ─────────────────────────────────────────────── */
 
@@ -248,16 +249,16 @@ export default function AboutPage() {
         ref={heroRef}
         className="relative min-h-screen flex items-center overflow-hidden bg-[#0d0a07]"
       >
-        {/* Background layers */}
+        {/* Background */}
         <motion.div
           className="absolute inset-0"
           style={{ y: heroY, scale: heroScale }}
         >
           <div className="absolute inset-0 bg-gradient-to-br from-[#2a1505] via-[#1a0d03] to-[#0d0a07]" />
           <div className="absolute inset-0 hero-grid opacity-100" />
-          {/* Orbs */}
+
           <div
-            className="absolute top-[15%] left-[10%] w-[500px] h-[500px] rounded-full"
+            className="absolute top-[10%] left-[5%] w-[220px] h-[220px] md:w-[500px] md:h-[500px] rounded-full"
             style={{
               background:
                 "radial-gradient(circle, rgba(192,57,43,0.18) 0%, transparent 70%)",
@@ -265,58 +266,30 @@ export default function AboutPage() {
             }}
           />
           <div
-            className="absolute bottom-[10%] right-[5%] w-[600px] h-[600px] rounded-full"
+            className="absolute bottom-[10%] right-[5%] w-[260px] h-[260px] md:w-[600px] md:h-[600px] rounded-full"
             style={{
               background:
                 "radial-gradient(circle, rgba(212,168,67,0.12) 0%, transparent 70%)",
               filter: "blur(80px)",
             }}
           />
-          <div
-            className="absolute top-[40%] right-[30%] w-[300px] h-[300px] rounded-full"
-            style={{
-              background:
-                "radial-gradient(circle, rgba(192,57,43,0.1) 0%, transparent 70%)",
-              filter: "blur(50px)",
-            }}
-          />
         </motion.div>
 
-        {/* Diagonal accent line */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div
-            className="absolute -left-20 top-0 bottom-0 w-1 opacity-20"
-            style={{
-              background:
-                "linear-gradient(180deg, transparent, var(--gold) 30%, var(--gold) 70%, transparent)",
-              transform: "rotate(8deg) translateX(180px)",
-            }}
-          />
-          <div
-            className="absolute -left-20 top-0 bottom-0 w-px opacity-10"
-            style={{
-              background:
-                "linear-gradient(180deg, transparent, var(--gold) 30%, var(--gold) 70%, transparent)",
-              transform: "rotate(8deg) translateX(250px)",
-            }}
-          />
-        </div>
-
         <motion.div
-          className="relative z-10 w-full max-w-7xl mx-auto px-8 py-32 pt-40"
+          className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-24 sm:py-28 lg:py-32 pt-32 lg:pt-40"
           style={{ opacity: heroOpacity }}
         >
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left content */}
-            <div>
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            {/* Left */}
+            <div className="text-center lg:text-left">
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
-                className="flex items-center gap-3 mb-8"
+                className="flex items-center justify-center lg:justify-start gap-3 mb-6"
               >
                 <div className="h-px w-10 bg-[var(--gold)]" />
-                <span className="outfit text-[var(--gold)] text-[11px] tracking-[0.4em] uppercase font-medium">
+                <span className="outfit text-[var(--gold)] text-[10px] sm:text-[11px] tracking-[0.35em] uppercase font-medium">
                   Est. 2009 · Dhaka, Bangladesh
                 </span>
               </motion.div>
@@ -329,16 +302,16 @@ export default function AboutPage() {
                   delay: 0.35,
                   ease: [0.16, 1, 0.3, 1],
                 }}
-                className="text-white text-6xl lg:text-8xl font-black leading-[0.95] tracking-tight"
+                className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black leading-[1] tracking-tight"
               >
                 Nourishing
                 <br />
                 <span className="shimmer-text">Farms,</span>
                 <br />
-                <span className="italic font-normal text-5xl lg:text-7xl text-white/70">
-                  Building{" "}
-                </span>
-                <span className="text-[var(--red-light)] italic font-normal text-5xl lg:text-7xl">
+                <span className="italic font-normal text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-white/70">
+                  Building
+                </span>{" "}
+                <span className="text-[var(--red-light)] italic font-normal text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
                   Bangladesh.
                 </span>
               </motion.h1>
@@ -347,7 +320,7 @@ export default function AboutPage() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.9 }}
-                className="outfit mt-8 text-white/50 text-base max-w-lg leading-relaxed font-light"
+                className="outfit mt-6 sm:mt-8 text-white/60 text-sm sm:text-base max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
                 SA Agro Feed is a trusted manufacturer of premium livestock and
                 aquaculture nutrition — helping farmers across Bangladesh raise
@@ -358,26 +331,25 @@ export default function AboutPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 1.1 }}
-                className="mt-10 flex gap-4 flex-wrap"
+                className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
               >
                 <a
                   href="/products"
-                  className="outfit inline-flex items-center gap-2 bg-[var(--red)] hover:bg-[var(--red-light)] text-white text-sm font-semibold px-7 py-4 transition-all duration-300 hover:gap-4 hover:shadow-[0_0_40px_rgba(192,57,43,0.4)]"
+                  className="outfit inline-flex justify-center items-center gap-2 bg-[var(--red)] hover:bg-[var(--red-light)] text-white text-sm font-semibold px-6 py-4 transition-all duration-300"
                 >
                   Explore Products <span>→</span>
                 </a>
                 <a
                   href="/contact"
-                  className="outfit inline-flex items-center gap-2 border border-white/15 hover:border-[var(--gold)]/50 text-white/70 hover:text-[var(--gold)] text-sm font-medium px-7 py-4 transition-all duration-300"
+                  className="outfit inline-flex justify-center items-center gap-2 border border-white/15 hover:border-[var(--gold)]/50 text-white/70 hover:text-[var(--gold)] text-sm font-medium px-6 py-4 transition-all duration-300"
                 >
                   Contact Us
                 </a>
               </motion.div>
             </div>
 
-            {/* Right: floating badge composition */}
-            <div className="relative h-[480px] hidden lg:block">
-              {/* Central monogram */}
+            {/* Right */}
+            <div className="relative h-[320px] sm:h-[420px] lg:h-[480px]">
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -388,8 +360,7 @@ export default function AboutPage() {
                 }}
                 className="absolute inset-0 flex items-center justify-center"
               >
-                <div className="relative w-64 h-64">
-                  {/* Rotating ring */}
+                <div className="relative w-44 h-44 sm:w-56 sm:h-56 lg:w-64 lg:h-64">
                   <motion.div
                     animate={{ rotate: 360 }}
                     transition={{
@@ -410,7 +381,7 @@ export default function AboutPage() {
                     className="absolute inset-4 rounded-full border border-[var(--red)]/15"
                     style={{ borderStyle: "dashed" }}
                   />
-                  {/* Core */}
+
                   <div className="absolute inset-8 rounded-full bg-gradient-to-br from-[#2a1505] to-[#1a0d03] border border-[var(--gold)]/20 flex items-center justify-center shadow-[0_0_60px_rgba(212,168,67,0.15)] overflow-hidden">
                     <img
                       src="/images.jpg"
@@ -421,62 +392,35 @@ export default function AboutPage() {
                 </div>
               </motion.div>
 
-              {/* Floating cards */}
-              <motion.div
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 1, duration: 0.8 }}
-                className="float-slow absolute top-12 right-0 bg-[#1a1108]/90 backdrop-blur-sm border border-[var(--gold)]/20 rounded-2xl p-5 w-44"
-              >
-                <p className="outfit text-[var(--gold)] text-3xl font-bold">
+              {/* Floating cards responsive */}
+              <div className="absolute top-2 right-2 sm:top-8 sm:right-4 bg-[#1a1108]/90 rounded-2xl p-3 sm:p-5 w-32 sm:w-44">
+                <p className="outfit text-[var(--gold)] text-xl sm:text-3xl font-bold">
                   50K+
                 </p>
-                <p className="outfit text-white/50 text-xs mt-1 leading-tight">
+                <p className="outfit text-white/50 text-[10px] sm:text-xs mt-1">
                   Farmers Across Bangladesh
                 </p>
-              </motion.div>
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: -40 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 1.1, duration: 0.8 }}
-                className="float-mid absolute bottom-20 left-0 bg-[var(--red)]/90 backdrop-blur-sm rounded-2xl p-5 w-40"
-              >
-                <p className="outfit text-white text-3xl font-bold">ISO</p>
-                <p className="outfit text-white/70 text-xs mt-1">
+              <div className="absolute bottom-16 left-2 sm:left-4 bg-[var(--red)]/90 rounded-2xl p-3 sm:p-5 w-28 sm:w-40">
+                <p className="outfit text-white text-xl sm:text-3xl font-bold">
+                  ISO
+                </p>
+                <p className="outfit text-white/70 text-[10px] sm:text-xs mt-1">
                   22000 Certified
                 </p>
-              </motion.div>
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.2, duration: 0.8 }}
-                className="float-slow absolute bottom-4 right-8 bg-[#1a1108]/90 backdrop-blur-sm border border-white/10 rounded-2xl p-5 w-48"
-              >
-                <p className="outfit text-white/40 text-[10px] uppercase tracking-widest mb-2">
+              <div className="absolute bottom-2 right-4 sm:right-8 bg-[#1a1108]/90 rounded-2xl p-3 sm:p-5 w-32 sm:w-48">
+                <p className="outfit text-white/40 text-[9px] sm:text-[10px] uppercase tracking-widest mb-2">
                   Est.
                 </p>
-                <p className="text-3xl font-black text-white">2009</p>
-              </motion.div>
+                <p className="text-2xl sm:text-3xl font-black text-white">
+                  2009
+                </p>
+              </div>
             </div>
           </div>
-        </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3"
-        >
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-            className="w-6 h-10 rounded-full border border-white/20 flex items-start justify-center pt-2"
-          >
-            <div className="w-1 h-2 bg-[var(--gold)] rounded-full" />
-          </motion.div>
         </motion.div>
       </section>
 
@@ -662,110 +606,112 @@ export default function AboutPage() {
           WHO WE ARE
       ══════════════════════════════════════ */}
       <section className="py-32 bg-[var(--dark-2)] relative overflow-hidden">
-        <div className="absolute top-0 left-0 right-0 section-divider" />
-        {/* Texture dots */}
-        <div
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: `radial-gradient(circle, var(--gold) 1px, transparent 1px)`,
-            backgroundSize: "40px 40px",
-          }}
-        />
+      <div className="absolute top-0 left-0 right-0 section-divider" />
+      {/* Texture dots */}
+      <div
+        className="absolute inset-0 opacity-[0.03]"
+        style={{
+          backgroundImage: `radial-gradient(circle, var(--gold) 1px, transparent 1px)`,
+          backgroundSize: "40px 40px",
+        }}
+      />
 
-        <div className="max-w-7xl mx-auto px-8">
-          <div className="grid lg:grid-cols-2 gap-20 items-center">
-            {/* Left */}
-            <Reveal direction="left">
-              <div>
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="h-px w-8 bg-[var(--gold)]" />
-                  <span className="outfit text-[var(--gold)] text-[11px] tracking-[0.3em] uppercase font-medium">
-                    Who We Are
-                  </span>
-                </div>
-                <h2 className="text-5xl lg:text-6xl font-black text-white leading-[0.95] tracking-tight">
-                  More Than Feed.
-                  <br />
-                  <span className="italic text-[var(--red-light)] font-normal text-4xl lg:text-5xl">
-                    A Farming Partner.
-                  </span>
-                </h2>
-
-                <div className="mt-8 space-y-5 outfit">
-                  <p className="text-white/50 leading-relaxed font-light text-[15px]">
-                    Founded in 2009 in Dhaka, SA Agro Feed began with a single
-                    conviction: Bangladesh's farmers deserved access to
-                    scientifically formulated animal nutrition — homegrown
-                    expertise tailored to local conditions.
-                  </p>
-                  <p className="text-white/50 leading-relaxed font-light text-[15px]">
-                    Over fifteen years we've grown into one of the region's most
-                    trusted agro-feed manufacturers, supplying poultry, cattle,
-                    and fish farmers with feed that genuinely performs.
-                  </p>
-                </div>
-
-                {/* Pull quote */}
-                <div className="mt-10 relative pl-6">
-                  <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--gold)] to-[var(--red)]" />
-                  <p className="text-lg font-semibold text-white italic leading-snug">
-                    "When the farmer wins, Bangladesh wins."
-                  </p>
-                  <p className="outfit text-white/30 text-sm mt-2 font-light">
-                    — Founder, SA Agro Feed
-                  </p>
-                </div>
+      <div className="max-w-7xl mx-auto px-8">
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
+          {/* Left */}
+          <Reveal direction="left">
+            <div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="h-px w-8 bg-[var(--gold)]" />
+                <span className="outfit text-[var(--gold)] text-[11px] tracking-[0.3em] uppercase font-medium">
+                  Who We Are
+                </span>
               </div>
-            </Reveal>
+              <h2 className="text-5xl lg:text-6xl font-black text-white leading-[0.95] tracking-tight">
+                More Than Feed.
+                <br />
+                <span className="italic text-[var(--red-light)] font-normal text-4xl lg:text-5xl">
+                  A Farming Partner.
+                </span>
+              </h2>
 
-            {/* Right: Feature grid */}
-            <Reveal direction="right" delay={0.2}>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  {
-                    icon: "🏭",
-                    label: "2 Manufacturing Plants",
-                    desc: "State-of-the-art production",
-                  },
-                  {
-                    icon: "🧪",
-                    label: "In-house Lab Testing",
-                    desc: "Every batch verified",
-                  },
-                  {
-                    icon: "📦",
-                    label: "3 Product Lines",
-                    desc: "Poultry, Cattle, Aqua",
-                  },
-                  {
-                    icon: "🏆",
-                    label: "ISO 22000 Certified",
-                    desc: "International standards",
-                  },
-                ].map((item, i) => (
-                  <motion.div
-                    key={item.label}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: i * 0.1 + 0.3, duration: 0.6 }}
-                    whileHover={{ y: -4, borderColor: "rgba(212,168,67,0.4)" }}
-                    className="bg-[#0d0a07]/80 border border-white/8 rounded-2xl p-6 cursor-default transition-all duration-300 hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]"
-                  >
-                    <span className="text-3xl">{item.icon}</span>
-                    <p className="text-white font-bold text-sm mt-4 mb-1">
-                      {item.label}
-                    </p>
-                    <p className="outfit text-white/35 text-xs leading-relaxed">
-                      {item.desc}
-                    </p>
-                  </motion.div>
-                ))}
+              <div className="mt-8 space-y-5 outfit">
+                <p className="text-white/50 leading-relaxed font-light text-[15px]">
+                  Founded in 2009 in Dhaka, SA Agro Feed began with a single
+                  conviction: Bangladesh's farmers deserved access to
+                  scientifically formulated animal nutrition — homegrown
+                  expertise tailored to local conditions.
+                </p>
+                <p className="text-white/50 leading-relaxed font-light text-[15px]">
+                  Over fifteen years we've grown into one of the region's most
+                  trusted agro-feed manufacturers, supplying poultry, cattle,
+                  and fish farmers with feed that genuinely performs.
+                </p>
               </div>
-            </Reveal>
-          </div>
+
+              {/* Pull quote */}
+              <div className="mt-10 relative pl-6">
+                <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--gold)] to-[var(--red)]" />
+                <p className="text-lg font-semibold text-white italic leading-snug">
+                  "When the farmer wins, Bangladesh wins."
+                </p>
+                <p className="outfit text-white/30 text-sm mt-2 font-light">
+                  — Founder, SA Agro Feed
+                </p>
+              </div>
+            </div>
+          </Reveal>
+
+          {/* Right: Feature grid */}
+          <Reveal direction="right" delay={0.2}>
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                {
+                  icon: <FaIndustry />,
+                  label: "2 Manufacturing Plants",
+                  desc: "State-of-the-art production",
+                },
+                {
+                  icon: <FaFlask />,
+                  label: "In-house Lab Testing",
+                  desc: "Every batch verified",
+                },
+                {
+                  icon: <FaBoxOpen />,
+                  label: "3 Product Lines",
+                  desc: "Poultry, Cattle, Aqua",
+                },
+                {
+                  icon: <FaAward />,
+                  label: "ISO 22000 Certified",
+                  desc: "International standards",
+                },
+              ].map((item, i) => (
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.1 + 0.3, duration: 0.6 }}
+                  whileHover={{ y: -4, borderColor: "rgba(212,168,67,0.4)" }}
+                  className="bg-[#0d0a07]/80 border border-white/5 rounded-2xl p-6 cursor-default transition-all duration-300 hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]"
+                >
+                  <span className="text-3xl text-[var(--gold)] mb-4 block">
+                    {item.icon}
+                  </span>
+                  <p className="text-white font-bold text-sm mt-4 mb-1">
+                    {item.label}
+                  </p>
+                  <p className="outfit text-white/35 text-xs leading-relaxed">
+                    {item.desc}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </Reveal>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* ══════════════════════════════════════
           CORE VALUES

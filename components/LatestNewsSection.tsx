@@ -21,6 +21,7 @@ const newsItems = [
     title: "New Feed Formula Launched",
     date: "January 2026",
     category: "Product Update",
+    link: "https://www.youtube.com/watch?v=5-MvkEay2h4",
     excerpt:
       "We introduced an improved cattle concentrate specially optimized for lactation performance, digestibility, and balanced nutrition.",
     highlights: [
@@ -33,6 +34,7 @@ const newsItems = [
     title: "Expanded Dealer Network",
     date: "December 2025",
     category: "Business Growth",
+    link: "https://www.youtube.com/@satvkrishibd",
     excerpt:
       "SA Agro Feed added 25 new dealer locations across the region to improve accessibility and ensure timely delivery for farmers.",
     highlights: [
@@ -45,6 +47,7 @@ const newsItems = [
     title: "Farmer Training Initiative",
     date: "November 2025",
     category: "Community",
+    link: "https://www.youtube.com/watch?app=desktop&v=YDNFfMGuAg4",
     excerpt:
       "Our technical team organized practical training sessions on feed management, livestock nutrition, and productivity improvement.",
     highlights: ["Expert guidance", "On-field support", "Better farm outcomes"],
@@ -62,7 +65,7 @@ export default function LatestNewsSection() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeUp}
-          className="flex flex-col md:flex-row md:items-end md:justify-between gap-4"
+          className="text-center"
         >
           <div>
             <span className="inline-block px-4 py-1 rounded-full border border-red-500/40 bg-red-600/10 text-red-400 text-sm font-medium tracking-wide uppercase">
@@ -73,18 +76,11 @@ export default function LatestNewsSection() {
               Latest <span className="text-red-500">News</span>
             </h2>
 
-            <p className="mt-3 text-gray-300 max-w-2xl">
+            <p className="mt-3 text-gray-300 max-w-2xl mx-auto">
               Stay informed with our latest product launches, dealer expansions,
               technical improvements, and farmer support initiatives.
             </p>
           </div>
-
-          <Link
-            href="/news"
-            className="inline-flex items-center justify-center rounded-lg border-2 border-red-600 px-5 py-3 text-red-400 font-semibold hover:bg-red-600 hover:text-white transition-all duration-300"
-          >
-            View All News
-          </Link>
         </motion.div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-3">
@@ -125,7 +121,7 @@ export default function LatestNewsSection() {
               </ul>
 
               <Link
-                href="/about"
+                href={n.link}
                 className="inline-flex items-center gap-2 mt-6 rounded-lg bg-red-600 px-5 py-3 font-semibold text-white hover:bg-red-700 transition-all duration-300 shadow-lg shadow-red-900/30"
               >
                 Read more

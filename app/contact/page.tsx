@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 
 export default function ContactPage() {
@@ -108,101 +109,7 @@ export default function ContactPage() {
           </div>
 
           {/* Right form */}
-          <div className="rounded-3xl border border-gray-200 bg-white p-8 md:p-10 shadow-xl">
-            <div>
-              <span className="inline-block rounded-full bg-red-50 px-4 py-1 text-sm font-medium text-red-700">
-                Send a Message
-              </span>
-              <h2 className="mt-4 text-3xl font-bold text-gray-900">
-                Request Information
-              </h2>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                Fill out the form below and our team will get back to you as
-                soon as possible.
-              </p>
-            </div>
-
-            <form className="mt-8 space-y-5">
-              <div className="grid gap-5 md:grid-cols-2">
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Your full name"
-                    className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100"
-                  />
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    Phone Number
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Your phone number"
-                    className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100"
-                  />
-                </div>
-              </div>
-
-              <div className="grid gap-5 md:grid-cols-2">
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    Email Address
-                  </label>
-                  <input
-                    type="email"
-                    placeholder="Your email address"
-                    className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100"
-                  />
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-medium text-gray-700">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="How can we help?"
-                    className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Inquiry Type
-                </label>
-                <select className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100">
-                  <option>General Inquiry</option>
-                  <option>Product Information</option>
-                  <option>Dealer Partnership</option>
-                  <option>Bulk Order</option>
-                  <option>Technical Support</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  rows={6}
-                  placeholder="Write your message here..."
-                  className="w-full rounded-xl border border-gray-300 px-4 py-3 outline-none transition focus:border-red-600 focus:ring-2 focus:ring-red-100"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-xl bg-red-600 px-6 py-3 font-semibold text-white shadow-lg shadow-red-200 transition hover:bg-red-700"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
+          <ContactForm /> 
         </div>
       </section>
 
