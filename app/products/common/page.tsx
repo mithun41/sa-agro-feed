@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import productData from "../../../public/products.json";
 
 export default function CommonNurseryProductsPage() {
-  const phoneNumber = "01798916082";
+  const phoneNumber = "+8801713558900";
 
   const nurseryProducts = productData.filter(
     (product) => product.category === "Common Nursery",
@@ -79,24 +79,13 @@ export default function CommonNurseryProductsPage() {
                   {product.name}
                 </h3>
 
-                <div className="space-y-2 mb-6">
-                  <div className="flex justify-between text-gray-600">
-                    <span>MRP</span>
-                    <span className="font-bold text-black">৳{product.mrp}</span>
-                  </div>
-                  <div className="flex justify-between text-gray-600">
-                    <span>Dealer Price</span>
-                    <span className="font-bold text-green-600">
-                      ৳{product.tp}
-                    </span>
-                  </div>
-                </div>
+                
 
                 <a
                   href={`tel:${phoneNumber}`}
                   className="w-full inline-flex justify-center items-center bg-green-700 text-white px-6 py-3 rounded-2xl font-bold hover:bg-green-600 transition-all"
                 >
-                  Order Now
+                  Call Now
                 </a>
               </div>
             </motion.div>

@@ -95,24 +95,13 @@ export default function FishDetailsPage() {
                   {product.name}
                 </h3>
 
-                <div className="space-y-2 mb-6">
-                  <div className="flex justify-between text-gray-600">
-                    <span>MRP</span>
-                    <span className="font-bold text-black">৳{product.mrp}</span>
-                  </div>
-                  <div className="flex justify-between text-gray-600">
-                    <span>Dealer Price</span>
-                    <span className="font-bold text-green-600">
-                      ৳{product.tp}
-                    </span>
-                  </div>
-                </div>
+              
 
                 <a
                   href={`tel:${phoneNumber}`}
                   className="w-full inline-flex justify-center items-center gap-2 bg-sky-700 text-white px-6 py-3 rounded-2xl font-bold hover:bg-sky-600 transition-all"
                 >
-                  Order Now
+                  Call Now
                 </a>
               </div>
             </motion.div>
